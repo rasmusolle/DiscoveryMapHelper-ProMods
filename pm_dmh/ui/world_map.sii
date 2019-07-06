@@ -7,25 +7,24 @@ SiiNunit {
 		keep_aspect: center
 		user_string_data: ""
 		fitting: false
-		my_children: 18
+		my_children: 17
 		my_children[0]: _nameless.008a5be62
 		my_children[1]: _nameless.008a5be63
 		my_children[2]: _nameless.008a5be64
 		my_children[3]: _nameless._.close.button
 		my_children[4]: _nameless._.info
 		my_children[5]: _nameless._.info.1
-		my_children[6]: _nameless.008a5bf00
-		my_children[7]: _nameless.009510e70
-		my_children[8]: _nameless.009511aa0
-		my_children[9]: _nameless.00c9ea450
-		my_children[10]: _nameless.00c9ec000
-		my_children[11]: _nameless._.explored.value
-		my_children[12]: _nameless._.gps.hint
-		my_children[13]: _nameless.064759891
-		my_children[14]: _nameless.064759892
-		my_children[15]: _nameless.064759893
-		my_children[16]: _nameless.0677cdf10
-		my_children[17]: _nameless._.route_notify
+		my_children[6]: _nameless.009510e70
+		my_children[7]: _nameless.009511aa0
+		my_children[8]: _nameless.00c9ea450
+		my_children[9]: _nameless.00c9ec000
+		my_children[10]: _nameless._.explored.value
+		my_children[11]: _nameless._.gps.hint
+		my_children[12]: _nameless.064759891
+		my_children[13]: _nameless.064759892
+		my_children[14]: _nameless.064759893
+		my_children[15]: _nameless.0677cdf10
+		my_children[16]: _nameless._.route_notify
 		coords_l: 0
 		coords_r: 1440
 		coords_t: 900
@@ -233,35 +232,17 @@ SiiNunit {
 		my_parent: _nameless._.info.1
 	}
 
-	ui::text : _nameless.008a5bf00 {
-		text: "<img src=/material/ui/map/pan_hint.mat>"
-		coords_l: 1333
-		coords_r: 1397
-		coords_t: 267
-		coords_b: 203
-		area_l: 1
-		area_r: 0
-		area_t: 0
-		area_b: 1
-		id: 0
-		layer: 2
-		tab: -1
-		pointer: -1
-		apparent_depth: 0
-		my_parent: _nameless.008a5be61
-	}
-
 	ui::button : _nameless.009510e70 {
-		n_pml: "<img src=/material/ui/map/zoom_out_n.mat>"
-		s_pml: "<img src=/material/ui/map/zoom_out_s.mat>"
+		n_pml: ""
+		s_pml: ""
 		s2_pml: ""
-		d_pml: "<color value=FF505050><img src=/material/ui/map/zoom_out_n.mat>"
-		p_pml: "<img src=/material/ui/map/zoom_out_n.mat>"
+		d_pml: ""
+		p_pml: ""
 		button_type: normal
-		coords_l: 1330
-		coords_r: 1362
-		coords_t: 193
-		coords_b: 161
+		coords_l: 0
+		coords_r: 0
+		coords_t: 0
+		coords_b: 0
 		area_l: 1
 		area_r: 0
 		area_t: 0
@@ -275,16 +256,16 @@ SiiNunit {
 	}
 
 	ui::button : _nameless.009511aa0 {
-		n_pml: "<img src=/material/ui/map/zoom_in_n.mat>"
-		s_pml: "<img src=/material/ui/map/zoom_in_s.mat>"
+		n_pml: ""
+		s_pml: ""
 		s2_pml: ""
-		d_pml: "<color value=FF505050><img src=/material/ui/map/zoom_in_n.mat>"
-		p_pml: "<img src=/material/ui/map/zoom_in_n.mat>"
+		d_pml: ""
+		p_pml: ""
 		button_type: normal
-		coords_l: 1368
-		coords_r: 1400
-		coords_t: 193
-		coords_b: 161
+		coords_l: 0
+		coords_r: 0
+		coords_t: 0
+		coords_b: 0
 		area_l: 1
 		area_r: 0
 		area_t: 0
@@ -358,11 +339,11 @@ SiiNunit {
 	}
 
 	ui::text : _nameless._.gps.hint {
-		text: "<img src=/material/ui/map/gps_hint.mat>"
-		coords_l: 1333
-		coords_r: 1397
-		coords_t: 337
-		coords_b: 273
+		text: ""
+		coords_l: 0
+		coords_r: 0
+		coords_t: 0
+		coords_b: 0
 		area_l: 1
 		area_r: 0
 		area_t: 0
