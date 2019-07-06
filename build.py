@@ -4,6 +4,7 @@ import os
 
 modfile = "pm_dmh.scs"
 modfolder = "pm_dmh"
+gamemodfolder = "\"%USERPROFILE%\\Documents\\Euro Truck Simulator 2\\mod\\\""+modfile
 
 def addDirToZip(zipHandle, path, basePath=""):
 	basePath = basePath.rstrip("\\/") + ""
@@ -20,3 +21,5 @@ if os.path.exists(modfile):
 zipf = zipfile.ZipFile(modfile, "w", zipfile.ZIP_DEFLATED)
 addDirToZip(zipf, modfolder, modfolder)
 zipf.close()
+
+os.system("copy "+modfile+" "+gamemodfolder)
