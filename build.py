@@ -2,10 +2,6 @@ import zipfile
 import sys
 import os
 
-modfile = "pm_dmh.scs"
-modfolder = "pm_dmh"
-gamemodfolder = "\"%USERPROFILE%\\Documents\\Euro Truck Simulator 2\\mod\\\""+modfile
-
 def addDirToZip(zipHandle, path, basePath=""):
 	basePath = basePath.rstrip("\\/") + ""
 	basePath = basePath.rstrip("\\/")
@@ -15,11 +11,15 @@ def addDirToZip(zipHandle, path, basePath=""):
 			inZipPath = filePath.replace(basePath, "", 1).lstrip("\\/")
 			zipHandle.write(filePath, inZipPath)
 
-if os.path.exists(modfile):
-	os.remove(modfile)
+def build_mod(modfolder, outputfile, steam = False):
+	if os.path.exists(outputfile):
+		os.remove(outputfile)
+	zipf = zipfile.ZipFile(outputfile, "w", zipfile.ZIP_DEFLATED)
+	addDirToZip(zipf, "common", "common")
+	addDirToZip(zipf, modfolder, modfolder)
+	zipf.close()
 
-zipf = zipfile.ZipFile(modfile, "w", zipfile.ZIP_DEFLATED)
-addDirToZip(zipf, modfolder, modfolder)
-zipf.close()
-
-os.system("copy "+modfile+" "+gamemodfolder)
+# ProMods
+build_mod("promods", "dmh_pm.scs")
+# ProMods w/ middle east addon
+build_mod("promods-mid", "dmh_pm_mid.scs")

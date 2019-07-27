@@ -4,5 +4,5 @@ This mod repaints colors on the road map, and removes all the icons, road number
 
 [orange]Notes:[normal]
 
-* Put the mod at the top of the mod loading order, even above Promods itself.
+* Put the mod at the top of the mod loading order, even above ProMods itself.
 * Unless there is a bug directly with the world map view, it is most likely a bug with ProMods.

@@ -74,23 +74,7 @@ SiiNunit {
 		company_icon_size[6]:				(16.0, 4.0)
 		company_icon_size[7]:				(16.0, 4.0)
 
-		camera_limits_min[0]:				(-1400000.0, -1400000.0)
-		camera_limits_min[1]:				(-1400000.0, -1400000.0)
-		camera_limits_min[2]:				(-1400000.0, -1400000.0)
-		camera_limits_min[3]:				(-1400000.0, -1400000.0)
-		camera_limits_min[4]:				(-98000.0, -182000.0)
-		camera_limits_min[5]:				(-96000.0, -182000.0)
-		camera_limits_min[6]:				(-94000.0, -180000.0)
-		camera_limits_min[7]:				(-92000.0, -175000.0)
-
-		camera_limits_max[0]:				(1000000.0, 1000000.0)
-		camera_limits_max[1]:				(1000000.0, 1000000.0)
-		camera_limits_max[2]:				(1000000.0, 1000000.0)
-		camera_limits_max[3]:				(1000000.0, 1000000.0)
-		camera_limits_max[4]:				(107000.0, 82000.0)
-		camera_limits_max[5]:				(107000.0, 80000.0)
-		camera_limits_max[6]:				(107000.0, 80000.0)
-		camera_limits_max[7]:				(105000.0, 78000.0)
+@include "/def/dmh/camera_limits.sui"
 
 		map_items_flags[0]:					0x1C20
 		map_items_flags[1]:					0x1C20
@@ -103,13 +87,7 @@ SiiNunit {
 
 		map_3d_camera_pitch:				40.0
 
-		ui_map_center:						(-14800.1, -8600.1)		// in editor coordinates
-		ui_map_size:						(4647.4, 4560.0)		// map texture in real km
-
-		ui_map_camera_min:					(-80000.0, -170000.0)
-		ui_map_camera_max:					(90000.0, 65000.0)
-
-		ui_map_always_draw_city:			true
+@include "/def/dmh/ui_map.sui"
 
 		navigation_city_penalty:			3.0
 		navigation_slow_road_penalty:		5.0
