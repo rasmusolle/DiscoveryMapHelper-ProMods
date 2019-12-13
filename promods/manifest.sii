@@ -2,5 +2,5 @@ SiiNunit {
 	mod_package : .mod {
 		display_name: "Discovery Map Helper for ProMods"
 @include "/mod_common_info.sui"
-	}	
+	}
 }

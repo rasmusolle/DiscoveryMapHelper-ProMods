@@ -6,6 +6,8 @@ SiiNunit {
 		job_road_discovered_color:			0xFF353535	// Job market map discovered route
 		world_road_color:					0xFF0C0CCF	// Main map undiscovered route
 		world_road_discovered_color:		0xFF505050	// Main map discovered route
+		fleet_manager_road_color:			0xff424242	// Fleet manager map undiscovered route
+		fleet_manager_road_discovered_color:0xff424242	// Fleet manager map discovered route
 
 		prefab_color:						0xFF0C42DF	// Undiscovered prefab driveable areas
 		prefab_obstacle_color:				0xFF07077C	// Undiscovered prefab buildings
